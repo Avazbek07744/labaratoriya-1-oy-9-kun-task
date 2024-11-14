@@ -1,0 +1,87 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #1c1c1c;
+    color: white;
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.lift-container {
+    width: 100px;
+    height: 400px;
+    background-color: transparent;
+    border: 2px solid white;
+    position: relative;
+    margin-right: 20px;
+    overflow: hidden;
+}
+
+.lift {
+    padding-left: 10px;
+    margin-left: 15px;
+    width: 60px;
+    height: 60px;
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 0;
+    transition: bottom 3s ease;
+}
+
+.floor-controls {
+    display: flex;
+    flex-direction: column;
+}
+
+.control {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.control span {
+    margin-right: 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+button {
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: white;
+    color: black;
+}
+
+.floor-indicator {
+    margin-left: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+}
+
+.arrow-buttons {
+    display: flex;
+    margin-left: 10px;
+}
