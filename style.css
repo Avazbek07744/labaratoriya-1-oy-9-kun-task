@@ -18,7 +18,6 @@ body {
 .lift-container {
     width: 100px;
     height: 400px;
-    background-color: transparent;
     border: 2px solid white;
     position: relative;
     margin-right: 20px;
@@ -26,14 +25,13 @@ body {
 }
 
 .lift {
-    padding-left: 10px;
-    margin-left: 15px;
     width: 60px;
     height: 60px;
-    background-color: transparent;
     border: 2px solid white;
+    background-color: transparent;
     color: white;
     display: flex;
+    margin-left: 20px;
     align-items: center;
     justify-content: center;
     position: absolute;
@@ -52,10 +50,10 @@ body {
     margin-bottom: 10px;
 }
 
-.control span {
-    margin-right: 10px;
-    font-size: 18px;
-    font-weight: bold;
+.arrow-buttons {
+    display: flex;
+    gap: 10px;
+    margin-left: 10px;
 }
 
 button {
@@ -63,7 +61,7 @@ button {
     color: white;
     border: 1px solid white;
     border-radius: 5px;
-    margin: 5px;
+    margin: 2px 0;
     padding: 10px;
     cursor: pointer;
 }
@@ -71,17 +69,4 @@ button {
 button:hover {
     background-color: white;
     color: black;
-}
-
-.floor-indicator {
-    margin-left: 10px;
-    font-size: 18px;
-    font-weight: bold;
-    color: white;
-    text-align: center;
-}
-
-.arrow-buttons {
-    display: flex;
-    margin-left: 10px;
 }
